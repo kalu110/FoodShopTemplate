@@ -1,0 +1,224 @@
+
+@import '@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '@fortawesome/fontawesome-free/css/regular.css';
+@import '@fortawesome/fontawesome-free/css/solid.css';
+@import '@fortawesome/fontawesome-free/css/brands.css';
+
+
+
+body{
+	background-color:rgba(0, 0, 0, 0.02) ;
+	font-family: sans-serif;
+}
+.navMain .navbar-collapse{
+}
+.serachInputNav{
+	border:none;
+	border-radius: 0;
+	border-bottom:2px solid white;
+	border-color: rgba(255, 255, 255, 0.7);
+	background-color: transparent;
+	height: 20px;
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width:300px;
+	color:white;
+}
+.serachInputNav:focus{
+	box-shadow: none;
+	border-color: white;
+	color:white;
+	background-color: transparent;
+}
+.serachInputNav::placeholder{
+	text-align: center;
+	color:white;
+}
+
+#idSearchInputButton{
+	display: inline-block;
+	width: 20px;
+}
+
+.buttonSearchNav{
+	color:white;
+	display: none;
+	cursor: pointer;
+}
+
+.indexHomePage{
+	background: url('../../../public/images/homePageIndex.jpg');
+	width: 100%;
+	height: 420px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.shopHomePage{
+
+	background: url('../../../public/images/homePageIndex.jpg');
+	width: 100%;
+	height: 350px;
+	padding: 0px;
+	backdrop-filter:blur(8px);
+	-webkit-filter: blur(8px);
+	transform: scale(1.02);
+	background-repeat: no-repeat;
+	 background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+
+.CategoryIndexSection img{
+	width: 100%;
+	height: 140px;
+	border-radius: 10px;
+	
+}
+.cardCategoryIndex{
+	padding:10px;
+	font-size: 13px;
+	min-height: 200px;
+	color:rgba(0, 0, 0, 0.6);
+}
+
+.navMain .navbar-brand{
+	position: absolute;
+}
+.navMain .nav-link{
+	font-weight: 700;
+	color:white;
+}
+.navMain .nav-link:hover{
+	opacity: 0.7;
+}
+.cardProductShop p{
+	color:rgba(0, 0, 0, 0.7);
+}
+.cardProductShop img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.cardProductShop{
+	line-height: 16px;
+	padding:7px 18px;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+
+.cenaKarticaShopS{
+	font-size: 20px;
+	font-weight: 600;
+	padding:4px 10px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	background-color:white;
+	color:black;
+
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.cardProductShop .row{
+	border:1px solid rgba(0,0,0,0.1);
+	border-radius:8px;
+	padding:18px 13px;
+	background-color: white;
+	transition: scale 0.2s;
+}
+.cardProductShop .row:hover{
+	scale:1.02;
+	-webkit-box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.3);
+-moz-box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.3);
+box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.3);
+}
+.cardProductShop .btnAddProducttoCart{
+	color:rgba(0,182,0, 0.5);
+	border-radius: 50px;
+	cursor: pointer;
+	margin:10px 18px;
+}
+.cardProductShop .btnAddProducttoCart:hover{
+color:rgba(0,182,0, 1);
+
+}
+
+.AsideMenuShopCategory{
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.7);
+-moz-box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.7);
+box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.7);
+}
+.AsideMenuShopCategory .nav-pills  .active{
+	background-color: rgb(0, 102, 0);
+	color: white !important;
+}
+.AsideMenuShopCategory  .nav-link{
+	color:rgba(0, 0, 0, 0.6);
+	cursor: pointer;
+}
+.AsideMenuShopCategory  .nav-link:hover{
+	color:rgba(0, 0, 0, 1);
+-webkit-box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.3);
+-moz-box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.3);
+box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.3);
+}
+
+.shopCategoryMore{
+
+	padding: 30px 70px;
+	position: absolute;
+	bottom:-180px;
+	z-index: 100;
+	filter: blur(0px);
+	width: 95%;
+	left: 3.8%;
+	background-color: white;
+	border-radius: 10px 101px 10px 10px;
+	-webkit-box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.6);
+-moz-box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.6);
+box-shadow: 0px 0px 15px 1px rgba(148,148,148,0.6);
+}
+.shopCategoryMore .row{
+
+}
+.shopCategoryMore img{
+	width: 100%;
+	height: 100%;
+	border-radius: 11px;
+}
+.shopCategoryMore h2{
+	color: rgba(0, 0, 0, 0.8);
+	margin-left: 5px;
+}
+.shopCategoryMore p{
+	color:rgba(0, 0, 0, 0.5);
+}
+#imgCategoryMore{
+	height: 170px;
+}
+
+
+.iconsShopCateg i{
+	border-radius: 100px;
+color:rgba(0,0,0, 0.7);
+}
+
+.iconsShopCateg span{
+	margin-left:5px;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.iconsShopCateg div{
+	vertical-align: bottom;
+	margin-top:20px;
+	height: 43px;
+	padding: 10px;
+	vertical-align: middle;
+	background-color: rgba(0,182,0, 0.5);
+	border-radius: 100px;
+}
